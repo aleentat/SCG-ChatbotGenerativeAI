@@ -5,6 +5,7 @@ const LINE_HEADER = {
   Authorization: `Bearer ${process.env.CHANNEL_ACCESS_TOKEN}`
 };
 
+
 class LINE {
   reply(token, payload) {
     return axios({
